@@ -1,6 +1,7 @@
-x = 10
-if x > 0
-  puts x
-  x += 1
-  puts x
+current_time = Time.now.to_i
+
+if current_time % 2 == 0
+  puts "Even!"
+else
+  puts "Odd!"
 end
